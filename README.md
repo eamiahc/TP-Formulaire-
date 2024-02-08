@@ -18,14 +18,12 @@ L'application est accessible à l'adresse http://localhost:5000.
 
 -Enregistrement d'un Nouvel Utilisateur :
 
-Accédez à http://localhost:5000.
 Remplissez les champs du formulaire d'inscription.
 Cliquez sur le bouton "Ajout Compte".
 Un message de confirmation de la création du compte ou indiquera une erreur.
 
 -Connexion d'un Utilisateur :
 
-Accédez à http://localhost:5000.
 Entrez vos identifiants dans le formulaire de connexion.
 Cliquez sur le bouton "OK".
 
