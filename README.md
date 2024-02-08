@@ -10,6 +10,26 @@
 - Hashage de Mot de Passe : Utilisation de SHA-256 pour le hachage des mots de passe (sécurisé).
 - Validation de Mot de Passe : Des contraintes pour assurer que les mots de passe sont suffisamment forts.
 
+## Installation et Configuration
+
+1. télécharger les fichiers de l'application.
+2. Ouvrir d'un terminal ou une invite de commande.
+3. Naviguer vers le répertoire de l'application.
+4. Installer les dépendances en exécutant :
+
+    pip install flask flask_sqlalchemy
+
+5. Initialisez la base de données avec la commande suivante :
+
+    python -c 'from app import init_db; init_db()'
+  
+
+## Lancer l'Application
+
+Exécutez le serveur Flask en utilisant la commande suivante :
+
+flask run
+
 ##
 L'application est accessible à l'adresse http://localhost:5000.
 ##
