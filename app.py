@@ -22,7 +22,6 @@ def hash_password(password):
 
 def is_strong_password(password):
     # Au moins 8 caractères, une lettre majuscule et un chiffre
-    # Ajoutez ou modifiez les conditions selon vos besoins
     if re.fullmatch(r'^(?=.*[A-Z])(?=.*\d).{8,}$', password):
         return True
     return False
